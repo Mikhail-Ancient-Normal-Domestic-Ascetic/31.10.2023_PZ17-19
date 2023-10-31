@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AvaloniaProject">
+    <option name="projectPerEditor">
+      <map>
+        <entry key="AvaloniaApplication8/AddRooms.axaml" value="AvaloniaApplication8/AvaloniaApplication8.csproj" />
+        <entry key="AvaloniaApplication8/AddSetsWindows.axaml" value="AvaloniaApplication8/AvaloniaApplication8.csproj" />
+        <entry key="AvaloniaApplication8/App.axaml" value="AvaloniaApplication8/AvaloniaApplication8.csproj" />
+        <entry key="AvaloniaApplication8/BookingWindow.axaml" value="AvaloniaApplication8/AvaloniaApplication8.csproj" />
+        <entry key="AvaloniaApplication8/HumanWindows.axaml" value="AvaloniaApplication8/AvaloniaApplication8.csproj" />
+        <entry key="AvaloniaApplication8/MainWindow.axaml" value="AvaloniaApplication8/AvaloniaApplication8.csproj" />
+        <entry key="AvaloniaApplication8/Rooms.axaml" value="AvaloniaApplication8/AvaloniaApplication8.csproj" />
+        <entry key="AvaloniaApplication8/SetsWindows.axaml" value="AvaloniaApplication8/AvaloniaApplication8.csproj" />
+        <entry key="AvaloniaApplication8/TypeWindows.axaml" value="AvaloniaApplication8/AvaloniaApplication8.csproj" />
+      </map>
+    </option>
+  </component>
+</project>

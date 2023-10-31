@@ -1,0 +1,40 @@
+is_global = true
+build_property.AvaloniaNameGeneratorIsEnabled = true
+build_property.AvaloniaNameGeneratorBehavior = InitializeComponent
+build_property.AvaloniaNameGeneratorDefaultFieldModifier = internal
+build_property.AvaloniaNameGeneratorFilterByPath = *
+build_property.AvaloniaNameGeneratorFilterByNamespace = *
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = AvaloniaApplication8
+build_property.ProjectDir = /home/KHPK.RU/student/Рабочий стол/AvaloniaApplication8 (2)/AvaloniaApplication8/
+
+[/home/KHPK.RU/student/Рабочий стол/AvaloniaApplication8 (2)/AvaloniaApplication8/AddRooms.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[/home/KHPK.RU/student/Рабочий стол/AvaloniaApplication8 (2)/AvaloniaApplication8/App.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[/home/KHPK.RU/student/Рабочий стол/AvaloniaApplication8 (2)/AvaloniaApplication8/BookingWindow.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[/home/KHPK.RU/student/Рабочий стол/AvaloniaApplication8 (2)/AvaloniaApplication8/HumanWindows.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[/home/KHPK.RU/student/Рабочий стол/AvaloniaApplication8 (2)/AvaloniaApplication8/MainWindow.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[/home/KHPK.RU/student/Рабочий стол/AvaloniaApplication8 (2)/AvaloniaApplication8/Rooms.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[/home/KHPK.RU/student/Рабочий стол/AvaloniaApplication8 (2)/AvaloniaApplication8/SetsWindows.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[/home/KHPK.RU/student/Рабочий стол/AvaloniaApplication8 (2)/AvaloniaApplication8/TypeWindows.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml

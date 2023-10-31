@@ -1,0 +1,36 @@
+﻿<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:models="clr-namespace:AvaloniaApplication7.Models"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="AvaloniaApplication2.Rooms"
+        Title="Rooms">
+        <StackPanel Margin="10">
+                <TextBlock Text="Rooms"
+                        ></TextBlock>
+                        <DataGrid x:Name="GroupsDataGrid13"
+                                  x:DataType="models:room"
+                                  AutoGenerateColumns="False"
+                                  IsReadOnly="True"
+                                  GridLinesVisibility="All"
+                                  BorderThickness="1"
+                                  Margin="0,20" 
+                                  BorderBrush="Gray"
+                                  Width="500"
+                                  Height="500">
+                                <DataGrid.Columns>
+                                        <DataGridTextColumn Header="Название услуг "  Binding="{Binding Id}" />
+                                        <DataGridTextColumn Header="Название услуг "  Binding="{Binding Type}" />
+                                </DataGrid.Columns>
+                            
+                        </DataGrid>
+                <Button Height="40" Width="100" Margin="10" Content="добавить" Click="Button_OnClick">
+                        
+                </Button>
+                <Button Height="40" Width="100" Margin="10" Content="Обновить" Click="Button_OnClick2">
+                        
+                </Button>
+        </StackPanel>
+        
+</Window>

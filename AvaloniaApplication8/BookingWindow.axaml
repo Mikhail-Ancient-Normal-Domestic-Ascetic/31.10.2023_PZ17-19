@@ -1,0 +1,32 @@
+﻿<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:models="clr-namespace:AvaloniaApplication7.Models"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="AvaloniaApplication2.BookingWindow"
+        Title="BookingWindow">
+        <StackPanel>
+                <TextBlock Text="Booking"
+                        ></TextBlock>
+                        <DataGrid x:Name="GroupsDataGrid11"
+                                  x:DataType="models:booking"
+                                  AutoGenerateColumns="False"
+                                  IsReadOnly="True"
+                                  GridLinesVisibility="All"
+                                  BorderThickness="1"
+                                  Margin="0,20" 
+                                  BorderBrush="Gray">
+                                <DataGrid.Columns>
+                                        <DataGridTextColumn Header="Id"  Binding="{Binding Id}" />
+                                        <DataGridTextColumn Header="human"  Binding="{Binding human}" />
+                                        <DataGridTextColumn Header="numePeople"  Binding="{Binding numePeople}" />
+                                        <DataGridTextColumn Header="numHotel"  Binding="{Binding numHotel}" />
+                                        <DataGridTextColumn Header="sercice"  Binding="{Binding service}" />
+                                        <DataGridTextColumn Header="price"  Binding="{Binding price}" />
+                                </DataGrid.Columns>
+                            
+                        </DataGrid>
+        </StackPanel>
+        
+</Window>

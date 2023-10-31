@@ -1,0 +1,31 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:models="clr-namespace:AvaloniaApplication7.Models"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="AvaloniaApplication8.AddRooms"
+        Title="AddRooms">
+    <StackPanel HorizontalAlignment="Left" Margin="20">
+        <TextBox x:Name="IdN" Margin="5"
+                 x:DataType="models:room"
+                 Text="{Binding Id}"
+                 Width="110"
+                 Height="30"
+                 Watermark=" введите номер комнаты">
+        </TextBox>
+        <ComboBox x:Name="ComboBoxN" Margin="5"
+                  Width="110"
+                  Height="30">
+                        <ComboBox.ItemTemplate>
+                            <DataTemplate x:DataType="models:sets">
+                                <TextBlock Text="{Binding services}">
+                                </TextBlock>
+                            </DataTemplate>
+                        </ComboBox.ItemTemplate>
+                    </ComboBox>
+        <Button Margin="5" Width="110" Height="35" Content="Добавление" Click="Button_OnClick">
+            
+        </Button>
+        </StackPanel>
+</Window>

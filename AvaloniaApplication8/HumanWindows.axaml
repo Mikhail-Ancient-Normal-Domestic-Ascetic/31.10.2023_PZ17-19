@@ -1,0 +1,35 @@
+﻿<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:models="clr-namespace:AvaloniaApplication7.Models"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="AvaloniaApplication2.HumanWindows"
+        Title="HumanWindows">
+        <StackPanel>
+                <TextBlock Text="Human"
+                ></TextBlock>
+                <DataGrid x:Name="GroupsDataGrid12"
+                          x:DataType="models:human"
+                          AutoGenerateColumns="False"
+                          IsReadOnly="True"
+                          GridLinesVisibility="All"
+                          BorderThickness="1"
+                          Margin="0,20" 
+                          BorderBrush="Gray"
+                          Height="100">
+                        <DataGrid.Columns>
+                                <DataGridTextColumn Header="Id "  Binding="{Binding Id}" />
+                                <DataGridTextColumn Header="Name "  Binding="{Binding Name}" />
+                                <DataGridTextColumn Header="Surname "  Binding="{Binding Surname}" />
+                                <DataGridTextColumn Header="age "  Binding="{Binding age}" />
+                        </DataGrid.Columns>
+            
+                </DataGrid>
+                <StackPanel>
+                        <TextBox x:Name="TextSerch" TextChanged="TextSerch_OnTextChanged">
+                                                
+                        </TextBox >
+                </StackPanel>
+        </StackPanel>
+</Window>
